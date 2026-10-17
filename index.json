@@ -1,0 +1,32 @@
+{
+  "format": 1,
+  "title": "DeepSeek Harness Market",
+  "description": "Unofficial DeepSeek Harness Market by Shihao Shen",
+  "plugins": [
+    {
+      "name": "dsh-providers-hub",
+      "title": "Jet Hub",
+      "description": "Sign in and manage accounts across multiple providers, with multi-account pools, silent credential refresh, per-model list toggles, credit balances and daily check-in.",
+      "author": "Jet",
+      "repository": {
+        "url": "https://github.com/你的用户名/你的仓库名",
+      },
+      "dist-tags": {
+        "latest": "0.2.0-rc.10"
+      },
+      "versions": [
+        {
+          "version": "0.2.0-rc.10",
+          "source": {
+            "type": "git",
+            "url": "https://gitee.com/iJetLi/deepseek-harness-codearts.git",
+            "commit": "026a7dbe149ea7e8e3236cda9483eff1b11df88f"
+          },
+          "engines": {
+            "dsh": "*"
+          }
+        }
+      ]
+    }
+  ]
+}
