@@ -3,6 +3,15 @@ A plugin market for DeepSeek Harness.
 
 ## How to add
 
+> [!NOTE]
+>
+> **RECOMMENDED**: Allow all build scripts for plugins.
+>
+> Add the following to `~/.dsh/profiles/<name>/pnpm-workspace.yaml`:
+> ```yaml
+> dangerouslyAllowAllBuilds: true
+> ```
+
 Enable `Custom plugin markets` plugin, click `Plugins -> Discover -> Add index source`, then paste the following URL:
 ```
 https://raw.githubusercontent.com/ShihaoShenCreator/dsh-plugin-market/refs/heads/main/index.json
